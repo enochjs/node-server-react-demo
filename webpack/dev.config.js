@@ -31,7 +31,7 @@ module.exports = {
   module: {
     rules: [
       {test: /\.(js|jsx)$/, exclude: /node_modules/, use: ['babel-loader']},
-      {test: /\.(ts|tsx)?$/, loader: 'awesome-typescript-loader'},
+      {test: /\.(ts|tsx)?$/, loader: ['react-hot-loader', 'awesome-typescript-loader']},
       { test: /\.css$/, use: ['style-loader', 'css-loader']},
       { test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader']},
       { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },

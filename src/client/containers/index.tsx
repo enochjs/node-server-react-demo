@@ -10,7 +10,7 @@ export default class app extends React.Component<any, any> {
 			<div id="page-wrapper">
         <div id="main-wrapper" className="ant-row">
         	<div>test</div>
-					<div>ewewedfsfdsw</div>
+					<div>ewefsfsdfw</div>
         </div>
 			</div>
 		)
